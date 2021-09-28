@@ -7,41 +7,30 @@
 </div>
 
 
-<div class="container">
+<div class="button">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6vqKxclWaLs2a-QKn71ZIkcNwNq6_PNc5hZd2Bo3XZv7BXpc&s" alt="Snow">
   <button class="btn">Button</button>
 </div>
 
-
 <style>
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-}
-
-.container img {
-  width: 100%;
-  height: auto;
-}
-
-.container .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
   text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
 }
 
-.container .btn:hover {
-  background-color: black;
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 </style>
